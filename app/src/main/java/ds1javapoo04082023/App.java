@@ -9,11 +9,13 @@ public class App {
         App aplicacao = new App();
         Pessoa p1 = new Pessoa("Mayke");
         Piloto pi1 = new Piloto("Vert Wheeler");
-        Carro car = new Carro("Deora II","Scrim Corp.","Brown","750 Cavalos","Fóssil");
+        NormalCar car = new NormalCar("Kadett","Chevrolet","Prata","110 Cavalos","Fóssil");
+        RacingCar carrace = new RacingCar("Deora II","Scrim Corp.","Azul","750 Cavalos","Fóssil","Propulsores a Jato");
         
         System.out.println("Pessoa: "+p1.nome);
         System.out.println("Piloto: "+pi1.nome);
-        System.out.println("Veiculo: "+car.nome_carro+" | Fabricante: "+car.fabricante+" | Cor: "+car.cor+" | Potência: "+car.potencia+" | Combustivel: "+car.combustivel);
+        System.out.println("Carro} Veiculo: "+car.nome_carro+" | Fabricante: "+car.fabricante+" | Cor: "+car.cor+" | Potência: "+car.potencia+" | Combustivel: "+car.combustivel);
+        System.out.println("Carro de Corrida} Veiculo: "+carrace.nome_carro+" | Fabricante: "+carrace.fabricante+" | Cor: "+carrace.cor+" | Potência: "+carrace.potencia+" | Combustivel: "+carrace.combustivel+" | Habilidade: "+carrace.hability);
         
     }
     

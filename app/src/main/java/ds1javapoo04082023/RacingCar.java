@@ -8,10 +8,14 @@ package ds1javapoo04082023;
  *
  * @author adven
  */
-public class Carro extends Motor {
+public class RacingCar extends NormalCar {
+    String hability;    
     
-    Carro(String carro, String fabricante, String cor, String potencia, String combust) {
+    RacingCar (String carro, String fabricante, String cor, String potencia, String combust, String hability) {
         super(carro, fabricante, cor, potencia, combust);
+        this.hability = hability;
+        
+        
     }
 
 }
